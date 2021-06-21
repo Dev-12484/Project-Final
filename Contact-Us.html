@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <title>Courses</title>
+        <link rel="stylesheet" href="Contact-Us.css">
+        <script src="Contact-Us.js">
+        </script>
+        <link rel="icon" href="https://www.adazing.com/wp-content/uploads/2019/02/open-book-clipart-03.png">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous" style="color:blue;font-size:15px;">
+    </head>
+    <body id="body">
+        <div id="loader">
+        </div>
+        <div id="content" style="display:none;"><!--Start of Body for content-->
+            <button onclick="show()" id="open">&#9776;</button>
+            <select id="theme">
+                <option disabled>Choose A Theme</option>
+                <option value="Default">Default</option>
+                <option value="2">Theme 2</option>
+                <option value="3">Theme 3</option>
+            </select>
+
+            <button id="button" onclick="theme()">Change Theme</button>
+
+            <div id="sidebar">
+                <button onclick="hide()" id="close">&#10006;</button>
+                <h1>Stoodies</h1><br>
+                <a href="Home-Page.html"><button><i class="fa fa-home"></i>  Home</button></a><br>
+                <a href="About-Us.html"><button><i class="fa fa-search"></i>  About Us</button></a><br>
+                <a href="Contact-Us.html"><button><i class="fa fa-book"></i>  Courses</button></a><br>
+                <a href="Instructors.html"><button><i class="fa fa-user"></i>  Instructors</button></a><br>
+                <a href="Challenges.html"><button><i class="fa fa-star"></i>  Challenges</button></a><br>
+            </div>
+
+            <h1>Coding Courses</h1>
+            <div id="codcourse" class="courses">
+            <a href="Basics of Javascript.html" style="background-color:white;text-decoration: none;margin:8px;margin-left:2px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(Javascript.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Basics of Javascript</div></a>
+            <a href="Web Development 3.html" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(wd3.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Web Development 3</div></a>
+            <a href="Web Development 1.html" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(wd1.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Wed Development 1</div></a>
+            <a href="Web Development 2.html" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(wd2.png);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Web Development 2</div></a>
+            <a href="Scratch.html" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(scratch.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Scratch</div></a>
+            </div>
+            
+            <br><hr><br>
+
+            <h1>Math Courses</h1>
+            <div id="mathcourse" class="courses">
+            <a href="Algebra.html" style="background-color:white;text-decoration: none;margin:8px;margin-left:2px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(Algebra.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Algebraic Expressions in Math</div></a>
+            <a href="Line.html" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(line&angle.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Lines and Angles</div></a>
+            <a href="Ratio.html" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(ratio&proportion.jpg);background-size:cover;height:125px;width:250px;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Ratio & Proportion</div></a>
+            <a href="Factors.html" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(factors&multiples.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Factors & Multiples</div></a>
+            <a href="Geometry.html" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(geometry.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Basic Geometry</div></a>
+            </div>
+
+            <br><hr><br>
+
+            <h1>Science Courses</h1>
+            <div id="scicourse" class="courses">
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;margin-left:2px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(anatomy.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Human Anatomy</div></a>
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(human\ tissues.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Human Tissues</div></a>
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(human\ cells.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Human Cells</div></a>
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(plant\ tissues.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Plant Tissues</div></a>
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(plant\ cells.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Plant Cells</div></a>
+            </div>
+
+            <br><hr><br>
+
+            <h1>Co-Scholastic Courses</h1>
+            <div id="schocourse" class="courses">
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;margin-left:2px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(piano.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Piano</div></a>
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(cricket.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Cricket</div></a>
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(pe.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">PE</div></a>
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(chess.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Chess</div></a>
+            <a href="" style="background-color:white;text-decoration: none;margin:8px;"><div style="width:250px;border:black 1px solid;height:250px;font-size:18px;color:black;"><div style="background-image: url(yoga.jpg);height:125px;width:250px;background-size: cover;"></div> <br><br><hr style="padding-left:1px;padding-right:1px;">Yoga</div></a>
+            </div>
+        </div><!--End of content-->
+    </body>
+</html>

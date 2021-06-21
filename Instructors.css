@@ -1,0 +1,68 @@
+#loader{
+    width:120px;
+    height:120px;
+    border:black 15px solid;
+    border-left:yellow 15px solid;
+    border-right:red 15px solid;
+    border-top:orange 15px solid;
+    border-bottom:blue 15px solid;
+    border-radius: 50%; 
+    animation-name: loader;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    margin-left:45%;
+    margin-top:18%;
+}
+
+@keyframes loader{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+
+#sidebar{
+    background-color:rgba(20,20,22,0.877);
+    color:white;
+    height:615px;
+    position: fixed;
+    left:-250px;
+    top:0px;
+    width:250px;
+}
+
+#sidebar h1{
+    font-size: 30px;
+    text-align: center;
+    padding-top:15px;
+}
+
+#sidebar a button{
+    background-color: rgba(20,20,22,0.877);
+    color:white;
+    width:100%;
+    height:100px;
+    font-size:20px;
+}
+
+#sidebar a button:hover{
+    background-color: lightslategray;
+    transition:all 0.4s;
+}
+
+#theme{
+    margin-left:1030px;
+}
+
+table{
+    margin-left:35px;
+}
+
+td{
+    height:120px;
+    width:120px;
+}
+
+#button{
+    margin-left:30px;
+}
+
